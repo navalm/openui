@@ -1,15 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 style="display:flex;flex-direction:column;align-items:center">
+  <img src="./public/logo.svg" alt="logo" width="32"/>
+  <span>&nbsp;OpenUI</span>
+</h1>
+
+> A cross-platform client for interacting with OpenAI, Midjourney, etc.
+
+## Technologies
+
+- [Tauri](https://tauri.app)
+- [Next.js 13](https://beta.nextjs.org/docs/getting-started)
+- [TypeScript](https://www.typescriptlang.org)
+- [ESLint](https://eslint.org)
+
 
 ## Getting Started
 
-First, run the development server:
+First, install dependencies:
+```bash
+pnpm i
+# or
+yarn i
+# or
+npm i
+```
+
+Then, run the development server:
 
 ```bash
-npm run dev
+pnpm run dev
 # or
 yarn dev
 # or
-pnpm dev
+npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -30,6 +52,8 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Deploy on Vercel
 
